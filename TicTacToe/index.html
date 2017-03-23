@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TicTacToe	|	FreeCodeCamp</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="wrapper">
+	<header>
+		<div class="scoreBoard">
+			<div class="win">Win: <span class="winScore">0</span></div>
+			<div class="lose">Lose: <span class="loseScore">0</span></div>
+			<div class="tie">Tie: <span class="tieScore">0</span></div>
+		</div>
+	</header>
+	<main>
+		<div id="input"><h3>What you want to Choose: <u id="inputX">X</u> OR <u id="inputO">O</u></h3></div>
+		<table id="table">
+			<tr>
+				<td class="box" onclick="boxClicked()"></td>
+				<td class="box" onclick="boxClicked()"></td>
+				<td class="box" onclick="boxClicked()" class="lastCol"></td>
+			</tr>
+			<tr>
+				<td class="box" onclick="boxClicked()"></td>
+				<td class="box" onclick="boxClicked()"></td>
+				<td class="box" onclick="boxClicked()" class="lastCol"></td>
+			</tr>
+			<tr>
+				<td class="box" onclick="boxClicked()" class="lastRow"></td>
+				<td class="box" onclick="boxClicked()" class="lastRow"></td>
+				<td class="box" onclick="boxClicked()" class="lastCol lastRow"></td>
+			</tr>
+		</table>
+	</main>
+</div>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

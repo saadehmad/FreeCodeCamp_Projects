@@ -1,0 +1,19 @@
+{
+  "name": "timestamp-microservice",
+  "version": "1.0.0",
+  "description": "Timestamp unix microservice",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha tests/timestamp-microservice.js --reporter spec"
+  },
+  "author": "Saad Ahmed",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mocha": "^3.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
+}

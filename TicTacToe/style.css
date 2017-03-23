@@ -1,0 +1,72 @@
+*{
+	font-family: sans-serif;
+}
+body{
+	background: #2F2F2F;
+	color: #FB9B2E;
+}
+
+header{
+	
+	height: 50px;
+}
+
+.scoreBoard{
+	width: 100%;
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.win, .lose, .tie{
+	font-size: 26px;
+	font-weight: bolder;
+	width: 100px;
+}
+
+main{
+	width: 200px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+#inputO:hover, #inputX:hover{
+	color: #D1D1D1;
+	cursor: pointer;
+}
+
+/*For TicTacToe box css*/
+
+table{
+	width: 100%;
+	border-collapse: collapse;
+	table-layout: fixed;
+	font-size: 18px;
+	display: none;
+}
+
+
+td{
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	text-align: center;
+	font-weight: bold;
+	height: 66px;
+}
+
+td:hover{
+	text-shadow: 2px 2px 5px;
+	cursor: pointer;
+}
+
+td:active{
+	background: #434343;
+}
+
+.lastRow{
+	border-bottom: 0;
+}
+
+.lastCol{
+	border-right: 0;
+}

@@ -1,0 +1,58 @@
+/*
+	color palete: #3C3C3C, #B4B4B4, #787878, #00BA73, #453420, #856541
+					, #00BA73;
+*/
+
+body{
+	background: #00BA73;
+}
+
+section{
+	width: 600px;
+	height: 150px;
+	margin: auto;
+  	position: absolute;
+  	top: 0; left: 0; bottom: 0; right: 0;
+}
+
+blockquote {
+  /*background: #f9f9f9;*/
+  border: 0;
+  color: #905614;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #647D76;
+  content: open-quote;
+  font-size: 5em;
+  line-height: -0em;
+  margin-right: 0.15em;
+  vertical-align: -0.3em;
+}
+blockquote p {
+  display: inline;
+  /*color: #000000;*/
+}
+
+footer{
+	text-align: right;
+}
+
+.nextQuote, button{
+	border: 0;
+    padding: 0;
+    background-color: #00BA73;
+    border-radius: 0;
+    color: #905614;
+    font-size: 25px;
+    float: right;
+    margin-right: 5px;
+}
+
+.tweet{
+	float: none;
+    font-weight: 800;
+    font-size: 25px;
+    margin-left: 40px;
+}
